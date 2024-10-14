@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=SUSE:wght@100..800&display=swap');
+.container-fluid > main > .hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hover-txt:hover,
+.hover-text:hover{
+    color: rgb(174, 174, 26) !important;
+}
+.hover-a:hover,
+.login-hover:hover{
+    color: rgb(174, 174, 26) !important;
+}
+.fascinate-font{
+    font-family: "Fascinate Inline", system-ui;
+}
+.suse-font{
+    font-family: "SUSE", system-ui;
+}
+#offcanvasRight {
+    background-color: hsl(197, 16%, 9%)
+}
+ 
+ 
+input::placeholder{
+    color: white  !important;
+}
+#nav > li > button {
+    width: 300px;
+    height: 50px;
+    transition: 0.5s ease-in-out;
+    border: 0.5px solid yellow;
+}
+#nav > .hover-socail{
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    border: none;
+}
+#btn {
+    transition: 0.5s ease-in-out;
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+#nav > .hover-socail:hover,
+#nav > li > button:hover {
+    background-color: rgb(129, 129, 32) ;  
+    transform: scale(1.1);
+}
+ @media  (max-width: 576px) {
+    .offcanvas{
+        width: 85% !important;
+    }
+ }
+ /* upcoming style */
+ .container-fluid > main > .upcoming {
+    width: 100%;
+    background-image: url(/image/background-movie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+.btn-focus:focus{
+    border: 1px solid yellow !important;
+}
+/* Card style */
+.card > .image{
+   height: 490px;
+}
+.overflow-x-scroll::-webkit-scrollbar{
+    height: 8px;
+}
+.overflow-x-scroll::-webkit-scrollbar-thumb{
+    background-color: yellowgreen;
+    border-radius: 16px;
+}
+.overflow-x-scroll::-webkit-scrollbar-track{
+    background-color: gray;
+    border-radius: 16px;
+}
+@media (min-width: 1200px) {
+    .overflow-x-scroll{
+        overflow-x: hidden !important;
+    }
+    
+}
+.brightness-hover:hover{
+    filter: brightness(115%);
+}
+/* service style -----------download content*/
+.container-fluid > main > .service {
+    width: 100%;
+    background-image: url(/image/service-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+ .icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline-offset: 2px;
+    display: grid;
+    place-content: center;
+    transition: 0.3s ease-in-out;
+
+    outline: 2px dashed yellow;
+ }
+ .hover-bg:hover{
+    background-color: yellow;
+ }
+ .container-fluid > main > .top-rate{
+    width: 100%;
+    background-image: url(/image/top-rated-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .container-fluid > main > .tv-series{
+    width: 100%;
+    background-image: url(/image/tv-series-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .footer{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+ .email{
+    width: 100%;
+    background-image: url(/image/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .brand{
+    width: 100%;
+    background-image: url(/image/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
